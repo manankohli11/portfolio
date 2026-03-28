@@ -49,6 +49,7 @@
   --Lsize: 145px;
   padding: 6px;
   position: relative;
+  z-index: 2;
   min-width: 0px;
   min-height: 0px;
   border-radius: 100px;
@@ -320,6 +321,8 @@
   font-size: clamp(30px, 8vw, 60px);
   font-weight: 600;
   text-transform: uppercase;
+  z-index: 0;
+  opacity: 0.15;
 }
 
 .loading-marquee span {
