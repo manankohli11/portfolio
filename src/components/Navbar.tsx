@@ -71,7 +71,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/Manan_Kohli.pdf" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1cNwAucZ_VRGUg4IzuV07FnLpXbQnuu6T/view" target="_blank" rel="noreferrer">
               <HoverLinks text="RESUME" />
             </a>
           </li>
