@@ -78,7 +78,7 @@ const SocialIcons = () => {
       </div>
       <a
         className="resume-button"
-        href="/Manan_Kohli.pdf"
+        href="https://drive.google.com/file/d/1cNwAucZ_VRGUg4IzuV07FnLpXbQnuu6T/view"
         target="_blank"
         rel="noreferrer"
       >
