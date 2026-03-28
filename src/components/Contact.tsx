@@ -11,23 +11,24 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://github.com/manukohli11"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:Manankohli88@gmail.com"
                 data-cursor="disable"
               >
-                GitHub — manukohli11
+                Manankohli88@gmail.com
               </a>
             </p>
-            <h4>Focus Areas</h4>
+            <h4>Education</h4>
             <p>
-              Product Management · AI & Automation · Digital Marketing · Vibe Coding
+              M.B.A — Bharati Vidyapeeth University, Paschim Vihar (2020–2022)
+            </p>
+            <p>
+              B.B.A — Rukmini Devi Institute of Advanced Studies (2016–2019)
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/manukohli11"
+              href="https://github.com/manankohli11"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -36,22 +37,13 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/manankohli11"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               LinkedIn <MdArrowOutward />
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">

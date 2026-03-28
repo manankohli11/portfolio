@@ -87,21 +87,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Building Smarter Products with AI</h4>
+              <h3>PRODUCT & PLG</h3>
+              <h4>Strategy to Execution</h4>
               <p>
-                AI practitioner turning ideas into intelligent products—using
-                LLMs, agents, and automation to solve real problems and ship
-                faster.
+                Product manager building SaaS platforms from roadmap to release.
+                I define strategy, write PRDs, run sprints, and ship features
+                that drive adoption and revenue through product-led growth.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; Agents</div>
-                <div className="what-tags">Prompt Engineering</div>
-                <div className="what-tags">AI Workflows</div>
-                <div className="what-tags">Vibe Coding</div>
-                <div className="what-tags">Automation</div>
-                <div className="what-tags">Claude &amp; GPT</div>
+                <div className="what-tags">Product Strategy</div>
+                <div className="what-tags">PLG</div>
+                <div className="what-tags">Roadmapping</div>
+                <div className="what-tags">Agile &amp; Scrum</div>
+                <div className="what-tags">PRDs</div>
+                <div className="what-tags">OKRs</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -125,20 +125,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>PRODUCT & GROWTH</h3>
-              <h4>Strategy Meets Execution</h4>
+              <h3>AI & ANALYTICS</h3>
+              <h4>Data-Driven Intelligence</h4>
               <p>
-                Product manager and digital marketer driving growth through
-                data-driven strategy, user research, and rapid experimentation.
+                Integrating AI agents and LLMs into products while leveraging
+                SQL, GA, Mixpanel, and Amplitude to run experiments, track KPIs,
+                and turn insights into action.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Product Strategy</div>
-                <div className="what-tags">Digital Marketing</div>
-                <div className="what-tags">SEO &amp; Ads</div>
-                <div className="what-tags">Analytics</div>
-                <div className="what-tags">Growth Hacking</div>
-                <div className="what-tags">User Research</div>
+                <div className="what-tags">AI Agents</div>
+                <div className="what-tags">Generative AI</div>
+                <div className="what-tags">N8n Workflows</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">GA &amp; Mixpanel</div>
+                <div className="what-tags">Vibe Coding</div>
               </div>
               <div className="what-arrow"></div>
             </div>
