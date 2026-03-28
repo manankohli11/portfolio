@@ -17,6 +17,14 @@ const Contact = () => {
                 Manankohli88@gmail.com
               </a>
             </p>
+            <p>
+              <a
+                href="tel:+919582489634"
+                data-cursor="disable"
+              >
+                +91 9582489634
+              </a>
+            </p>
             <h4>Education</h4>
             <p>
               M.B.A — Bharati Vidyapeeth University, Paschim Vihar (2020–2022)
