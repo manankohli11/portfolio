@@ -133,5 +133,16 @@ body {
 @media screen and (max-width: 900px) {
   .techstack h2 {
     font-size: 40px;
+    top: 80px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .techstack {
+    margin-top: 20px;
+    margin-bottom: -50px;
+  }
+  .techstack h2 {
+    font-size: 28px;
+    top: 60px;
   }
 }

@@ -19,8 +19,8 @@
   left: 0%;
   z-index: 15;
   position: fixed;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: #22d3ee;
   box-shadow: inset -50px 40px 50px rgba(0, 180, 180, 0.6);
   filter: blur(60px);
@@ -91,8 +91,8 @@
 
 .character-rim {
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   z-index: 1;
   background-color: #22d3ee;
   transform: translate(-50%, 36%) scaleX(1.4);
@@ -106,8 +106,8 @@
 }
 
 .character-model {
-  height: 80%;
-  height: 80vh;
+  height: 60%;
+  height: 60vh;
   position: absolute;
   max-width: 1920px;
   max-height: 1080px;
@@ -159,8 +159,8 @@
 
 .character-hover {
   position: absolute;
-  width: 280px;
-  height: 280px;
+  width: 200px;
+  height: 200px;
   top: 50%;
   left: 50%;
   z-index: 3;
@@ -178,7 +178,7 @@
 .landing-intro h2 {
   margin: 0;
   color: var(--accentColor);
-  font-size: 22px;
+  font-size: clamp(16px, 4vw, 22px);
   font-weight: 300;
   letter-spacing: 2px;
 }
@@ -186,8 +186,8 @@
 .landing-intro h1 {
   margin: 0;
   letter-spacing: 2px;
-  font-size: 28px;
-  line-height: 28px;
+  font-size: clamp(24px, 6vw, 28px);
+  line-height: 1;
   font-weight: 500;
   font-family: "Geist", sans-serif;
 }
@@ -200,13 +200,14 @@
   position: absolute;
   right: 50%;
   transform: translateX(50%);
-  bottom: 40px;
+  bottom: 30px;
   top: inherit;
   z-index: 9;
+  max-width: calc(100% - 20px);
 }
 
 .landing-info h3 {
-  font-size: 22px;
+  font-size: clamp(16px, 4vw, 22px);
   letter-spacing: 2px;
   font-weight: 300;
   color: var(--accentColor);
@@ -215,12 +216,12 @@
 
 .landing-info h2 {
   margin: 0;
-  margin-top: -20px;
-  margin-left: 20px;
+  margin-top: -15px;
+  margin-left: 15px;
   font-family: "Geist", sans-serif;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: clamp(22px, 7vw, 32px);
+  line-height: 1.2;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -235,7 +236,7 @@
 
 h2.landing-info-h2 {
   color: #14b8a6;
-  font-size: 42px;
+  font-size: clamp(28px, 9vw, 42px);
   width: 120%;
   margin: 0;
   font-family: "Geist", sans-serif;
@@ -295,8 +296,20 @@ h2.landing-info-h2 {
 }
 
 @media screen and (min-width: 768px) {
+  .landing-circle1 {
+    width: 300px;
+    height: 300px;
+  }
+  .character-rim {
+    width: 400px;
+    height: 400px;
+  }
   .character-model {
     height: 80vh;
+  }
+  .character-hover {
+    width: 280px;
+    height: 280px;
   }
 
   .landing-intro h2 {

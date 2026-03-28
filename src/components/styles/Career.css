@@ -13,8 +13,8 @@
 }
 
 .career-section h2 {
-  font-size: 70px;
-  line-height: 70px;
+  font-size: clamp(35px, 8vw, 70px);
+  line-height: 1;
   font-weight: 400;
   text-align: center;
   background: linear-gradient(0deg, #0d9488, #ffffff);
@@ -46,7 +46,7 @@
 
 .career-info-box p {
   width: 40%;
-  font-size: 18px;
+  font-size: clamp(14px, 2vw, 18px);
   font-weight: 300;
   margin: 0;
 }
@@ -59,15 +59,15 @@
 }
 
 .career-info h3 {
-  font-size: 48px;
+  font-size: clamp(28px, 6vw, 48px);
   margin: 0;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 1;
 }
 
 .career-info h4 {
-  font-size: 33px;
-  line-height: 30px;
+  font-size: clamp(20px, 5vw, 33px);
+  line-height: 1;
   letter-spacing: 0.8px;
   font-weight: 500;
   margin: 0;
@@ -76,7 +76,7 @@
 .career-info h5 {
   font-weight: 400;
   letter-spacing: 0.7px;
-  font-size: 20px;
+  font-size: clamp(14px, 3vw, 20px);
   text-transform: capitalize;
   margin: 10px 0px;
   color: var(--accentColor);
@@ -215,17 +215,12 @@
 
   .career-section h2 {
     width: 100%;
-    font-size: 45px;
-    line-height: 45px;
     margin-top: 0px;
+    margin-bottom: 50px;
   }
 
   .career-info-in {
     gap: 0px;
-  }
-
-  .career-info h3 {
-    font-size: 33px;
   }
 
   .career-info-in,
@@ -236,7 +231,8 @@
   .career-section {
     padding-top: 90px;
     margin-top: -70px;
-
+    padding-bottom: 50px;
+    margin-bottom: 100px;
     align-items: start;
     place-items: inherit;
     justify-content: left;
