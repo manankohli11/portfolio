@@ -70,6 +70,11 @@ const Navbar = () => {
               <HoverLinks text="CONTACT" />
             </a>
           </li>
+          <li>
+            <a href="/Manan_Kohli.pdf" target="_blank" rel="noreferrer">
+              <HoverLinks text="RESUME" />
+            </a>
+          </li>
         </ul>
       </div>
 
